@@ -1,5 +1,7 @@
 from django.contrib import admin
-from .models import Portfolio
+from .models import UserProfile,Skill
 
-admin.site.register(Portfolio)
+admin.site.register(UserProfile)
+admin.site.register(Skill)
+
 # Register your models here.
